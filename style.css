@@ -1,0 +1,18 @@
+.nav{
+    /* justify-content: space-between; */
+    /* display: flex; */
+     background-color: aquamarine;
+     width: 100%;
+          text-align: center;
+
+     
+}
+.menu{
+    /* justify-content: space-around; */
+    background-color: aquamarine;
+     gap: 1.5rem;
+    display: flex;
+    text-align: center;
+    /* margin-left: 40%; */
+    /* align-items: center; */
+}
