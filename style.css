@@ -1,18 +1,93 @@
+body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background-color: #e3e9ea;
+      color: #333;
+    }
+    .header{
+        display: flex;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+    }
+    
 .nav{
-    /* justify-content: space-between; */
-    /* display: flex; */
-     background-color: aquamarine;
-     width: 100%;
-          text-align: center;
-
-     
-}
-.menu{
-    /* justify-content: space-around; */
-    background-color: aquamarine;
-     gap: 1.5rem;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
-    /* margin-left: 40%; */
-    /* align-items: center; */
+    /* width: 80%; */
+    height: 20px;
+    font-size: 12px;
+    gap: 50px;
+    /* margin-top: 30px; */
+    margin-left: 60px;
+}
+
+.nav>input{
+      padding: 8px 12px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      width: 200px;
+      margin-left: 80px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-left: 20px;
+    font-weight: 500;
+    /* width: 66%; */
+}
+.nav>img{
+  margin-left: 100px;
+}
+.main{
+    flex: 1;
+}
+
+.text{
+    margin-left: 60px;
+    width: 200px;
+    /* height: 200px; */
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.card-1{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(237, 232, 232);
+    margin-left: 55px;
+    border-radius: 15px;
+     
+
+}
+.card-2{
+     width: 100%;
+    height: 200px;
+    background-color: white;
+    border: 1px solid rgb(237, 232, 232);
+    margin-left: 55px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.sidebar{
+    /* justify-self: right; */
+    width: 350px;
+    
+    display: flex;
+    flex-direction: column;
+    /* height: 500px; */
+    border: 2px solid black;
+    margin-left: 100px;
+    border-radius: 15px;
+     background-color: white;
+    border: 1px solid rgb(237, 232, 232);
+
 }
